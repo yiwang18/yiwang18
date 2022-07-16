@@ -9,3 +9,12 @@ answer : 1/ git remote rm origin
 https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
 answer:  You can use --allow-unrelated-histories to force the merge to happen
          1/ git pull origin branchname --allow-unrelated-histories
+
+03. # change to folder
+      cd simtexcore
+    # all the branch 
+      git branch -a
+    # move to branch main
+      git checkout main
+    # create new branch
+      git checkout -b name_newbranch
