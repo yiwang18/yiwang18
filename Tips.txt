@@ -1,0 +1,11 @@
+# Some notes and tips
+
+01.Remote origin already exists on 'git push' to a new repository
+https://stackoverflow.com/questions/1221840/remote-origin-already-exists-on-git-push-to-a-new-repository
+answer : 1/ git remote rm origin
+      or 2/ git remote set-url origin git@github.com:username/projectname.git
+
+02. Git refusing to merge unrelated histories on rebase
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+answer:  You can use --allow-unrelated-histories to force the merge to happen
+         1/ git pull origin branchname --allow-unrelated-histories
